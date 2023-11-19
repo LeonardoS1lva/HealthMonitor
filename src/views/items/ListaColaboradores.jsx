@@ -2,7 +2,15 @@ import "../css/ListaColaboradores.css"
 import React from 'react'
 import Header from '../../components/layout/Header'
 
+import dados from '../../data/gerados.json'
+
 const ListaColaboradores = (props) => {
+
+
+    function gerarNumeroAleatorio(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    
 
     const saude1 = 72;
     const saude2 = 55;
@@ -25,18 +33,18 @@ const ListaColaboradores = (props) => {
     return (
         <div className="ListaColaboradores">
             <h2 className="title">Lista de Colaboradores</h2>
-            <Header dados={<>
-                <progress className={`progress ${colorBar(saude1)}`} value={saude1} max={100}></progress>
-                <span>Saúde {saude1}%</span>
-            </>} />
-            <Header dados={<>
-                <progress className={`progress ${colorBar(saude2)}`} value={saude2} max={100}></progress>
-                <span>Saúde {saude2}%</span>
-            </>} />
-            <Header dados={<>
-                <progress className={`progress ${colorBar(saude3)}`} value={saude3} max={100}></progress>
-                <span>Saúde {saude3}%</span>
-            </>} />
+
+            {
+                dados.map((item, index) => {
+                    let saude = gerarNumeroAleatorio(0, 100);
+                    return (
+                        <Header nome={item.name} image={item.image} dados={<>
+                            <progress className={`progress ${colorBar(saude)}`} value={saude} max={100}></progress>
+                            <span>Saúde {saude}%</span>
+                        </>} />
+                    )
+                })
+            }
         </div>
     )
 }

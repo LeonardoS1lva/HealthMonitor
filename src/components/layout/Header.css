@@ -16,8 +16,10 @@
 
 }
 
-.cabecalho aside svg {
-    width: 5rem;
+.cabecalho aside img {
+    width: 9rem;
+    border-radius: 50%;
+    margin-top: .2rem;
 }
 
 .cabecalho .informacoesPessoais {
