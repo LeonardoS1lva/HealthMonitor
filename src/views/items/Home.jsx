@@ -6,6 +6,8 @@ const Home = props => (
         <PageTitle
             title="Health Monitor"
             subtitle="Monitoramento de Saúde." />
+        
+        <center><img src="/banner.jpg" width="800px" alt="" /></center>
     </div>
 )
 
