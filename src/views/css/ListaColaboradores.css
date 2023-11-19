@@ -1,0 +1,31 @@
+.ListaColaboradores {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    color: #00784D;
+    display: flex;
+    justify-content: center;
+}
+
+.progress {
+    display:block;
+    appearance: none;
+}
+
+.progress::-webkit-progress-bar {
+    background: #959595;
+    border-radius: 20px;
+}
+
+.progress::-moz-progress-bar {  
+    background: #959595;
+    border-radius: 20px;
+}
+
+.progress::-webkit-progress-value {
+    border-radius: 20px;
+    background-color:#5F9900;
+}

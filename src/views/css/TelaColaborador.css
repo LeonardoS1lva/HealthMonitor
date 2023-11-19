@@ -1,0 +1,93 @@
+* {
+    list-style: none;
+}
+
+.TelaColaborador {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    background-color: #D9D9D9;
+    padding: 1rem;
+}
+
+.informacoes h2,
+.informacoes h3 {
+    color: #00784D;
+}
+
+.informacaoGeral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.informacaoGeral .progress {
+    height: 4rem;
+    width: 85%;
+}
+
+.progress {
+    display:block;
+    appearance: none;
+}
+
+.progress::-webkit-progress-bar {
+    background: #00784D5E;
+    border-radius: 20px;
+}
+
+.progress::-moz-progress-bar {  
+    background: #00784D5E;
+    border-radius: 20px;
+}
+
+.progress::-webkit-progress-value {
+    border-radius: 20px;
+    background-color:#00784D;
+}
+
+.informacoes li .progress {
+    height: 3rem;
+    width: 400px;
+}
+
+.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px 0px;
+    padding: 0;
+}
+
+.informacoes ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.itemProgress {
+    color: #00784D;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.health {
+    font-size: 1.3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

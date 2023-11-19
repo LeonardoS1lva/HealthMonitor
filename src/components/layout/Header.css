@@ -1,0 +1,36 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1.5rem;
+    background-color: #00784D;
+}
+
+.cabecalho aside {
+    width: 7rem;
+    height: 9.7rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem 0 7rem 1.5rem;
+    padding: 0 5.5rem 0 1rem;
+    background-color: #0dad75;
+
+}
+
+.cabecalho aside svg {
+    width: 5rem;
+}
+
+.cabecalho .informacoesPessoais {
+    background-color: #00784D;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 1.5rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

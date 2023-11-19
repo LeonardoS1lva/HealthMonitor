@@ -1,0 +1,45 @@
+.FormularioFuncionario {
+    gap: 10px;
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    gap: 15px 40px;
+    flex-wrap: wrap;
+    background-color: #0dad7525;
+    padding: 50px;
+    border-radius: 2rem;
+}
+
+.container-item {
+    width: 300px;
+}
+
+.container-item label {
+    font-weight: bold;
+}
+
+.container-item input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button {
+    color: #fff;
+    background: linear-gradient(to top, #00784D, #0dad75);
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    padding: 15px;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to top, #00784Dcc, #0dad75cc);
+}

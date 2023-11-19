@@ -1,0 +1,40 @@
+.FormularioClinico {
+    gap: 10px;
+}
+/*
+.cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    gap: 15px 40px;
+    flex-wrap: wrap;
+    background-color: #90000025;
+    padding: 50px;
+    border-radius: 2rem;
+}
+
+.container-item {
+    width: 250px;
+}
+
+.container-item label {
+    font-weight: bold;
+}
+
+.container-item input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button {
+    color: #fff;
+    background: linear-gradient(to top, #db0000, #0dad75);
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    padding: 15px;
+    width: 120px;
+    text-transform: uppercase;
+} */
