@@ -14,9 +14,6 @@ const Menu = props => (
                     <Link to="/ListaColaboradores">Lista de Colaboradores</Link>
                 </li>
                 <li>
-                    <Link to="/TelaColaborador">Visualizar Perfil</Link>
-                </li>
-                <li>
                     <Link to="/FormularioFuncionario">Registrar Funcionário</Link>
                 </li>
                 <li>

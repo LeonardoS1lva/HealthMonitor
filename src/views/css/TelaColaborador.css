@@ -51,7 +51,23 @@
 
 .TelaColaborador .progress::-webkit-progress-value {
     border-radius: 20px;
-    background-color:#00784D;
+    background-color: currentColor;
+}
+
+.progress.red{
+    color: red;
+}
+.progress.yellow{
+    color: yellow;
+}
+.progress.orange{
+    color: orange;
+}
+.progress.lightGreen{
+    color: lightgreen;
+}
+.progress.green{
+    color: green;
 }
 
 .informacoes li .progress {

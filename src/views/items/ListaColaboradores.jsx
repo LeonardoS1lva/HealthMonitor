@@ -10,11 +10,6 @@ const ListaColaboradores = (props) => {
     function gerarNumeroAleatorio(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    
-
-    const saude1 = 72;
-    const saude2 = 55;
-    const saude3 = 99;
 
     const colorBar = (saude) => {
         if (`${saude}` < 20) {
@@ -36,9 +31,9 @@ const ListaColaboradores = (props) => {
 
             {
                 dados.map((item, index) => {
-                    let saude = gerarNumeroAleatorio(0, 100);
+                    let saude = gerarNumeroAleatorio(10, 100);
                     return (
-                        <Header nome={item.name} image={item.image} dados={<>
+                        <Header id={item.id} nome={item.name} image={item.image} dados={<>
                             <progress className={`progress ${colorBar(saude)}`} value={saude} max={100}></progress>
                             <span>Saúde {saude}%</span>
                         </>} />
