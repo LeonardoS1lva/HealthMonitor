@@ -7,7 +7,11 @@ const MonitoramentoSono = (props) => {
 
     return (
         <div className="MonitoramentoSono">
-            <Header />
+            <Header dados={<>
+                <span>idade: 20y </span>
+                <span>altura: 1.84m </span>
+                <span>peso: 93kg </span>
+            </>} />
             <SectionTitle title="Sono" />
         </div>
     )

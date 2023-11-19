@@ -10,22 +10,43 @@
     justify-content: center;
 }
 
-.progress {
+.ListaColaboradores .progress {
     display:block;
     appearance: none;
+    width: 400px;
 }
 
-.progress::-webkit-progress-bar {
+.ListaColaboradores .progress::-webkit-progress-bar {
     background: #959595;
     border-radius: 20px;
 }
 
-.progress::-moz-progress-bar {  
+.ListaColaboradores .progress::-moz-progress-bar {  
     background: #959595;
     border-radius: 20px;
 }
 
-.progress::-webkit-progress-value {
+.ListaColaboradores .progress::-webkit-progress-value {
     border-radius: 20px;
-    background-color:#5F9900;
+    background-color: currentColor;
+}
+
+.progress.red{
+    color: red;
+}
+.progress.yellow{
+    color: yellow;
+}
+.progress.orange{
+    color: orange;
+}
+.progress.lightGreen{
+    color: lightgreen;
+}
+.progress.green{
+    color: green;
+}
+
+Header:hover {
+    cursor: pointer;
 }

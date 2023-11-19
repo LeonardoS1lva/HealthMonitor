@@ -34,22 +34,22 @@
     width: 85%;
 }
 
-.progress {
+.TelaColaborador .progress {
     display:block;
     appearance: none;
 }
 
-.progress::-webkit-progress-bar {
+.TelaColaborador .progress::-webkit-progress-bar {
     background: #00784D5E;
     border-radius: 20px;
 }
 
-.progress::-moz-progress-bar {  
+.TelaColaborador .progress::-moz-progress-bar {  
     background: #00784D5E;
     border-radius: 20px;
 }
 
-.progress::-webkit-progress-value {
+.TelaColaborador .progress::-webkit-progress-value {
     border-radius: 20px;
     background-color:#00784D;
 }
@@ -91,3 +91,19 @@ main {
     flex-direction: column;
     gap: 15px;
 }
+
+/* .progress.red{
+    color: red;
+}
+.progress.yellow{
+    color: yellow;
+}
+.progress.orange{
+    color: orange;
+}
+.progress.lightGreen{
+    color: lightgreen;
+}
+.progress.green{
+    color: #00784D;
+} */

@@ -72,7 +72,7 @@ const TelaColaborador = (props) => {
                 <section className="informacoes">
                     <h2>Mapa de Saúde</h2>
                     <div className="informacaoGeral">
-                        <progress className="progress" value={valueHealth} max={100}></progress>
+                        <progress className={`progress`} value={valueHealth} max={100}></progress>
                         <span className="itemProgress health">Saúde {valueHealth}%</span>
                     </div>
                     <ul>

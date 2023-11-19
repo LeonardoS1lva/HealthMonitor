@@ -7,7 +7,11 @@ const NivelEstresse = (props) => {
 
     return (
         <div className="NivelEstresse">
-            <Header />
+            <Header dados={<>
+                <span>idade: 20y </span>
+                <span>altura: 1.84m </span>
+                <span>peso: 93kg </span>
+            </>} />
             <SectionTitle title="Estresse" />
         </div>
     )

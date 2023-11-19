@@ -7,7 +7,11 @@ const AtividdeFisica = (props) => {
 
     return (
         <div className="AtividdeFisica">
-            <Header />
+            <Header dados={<>
+                <span>idade: 20y </span>
+                <span>altura: 1.84m </span>
+                <span>peso: 93kg </span>
+            </>} />
             <SectionTitle title="AF" />
         </div>
     )
