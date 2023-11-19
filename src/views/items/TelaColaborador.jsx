@@ -41,15 +41,15 @@ const TelaColaborador = (props) => {
 
     const calcAF = () => {
         if (valueAF < 20) {
-            
+
         } else if (valueAF >= 20 && valueAF < 40) {
-         
+
         } else if (valueAF >= 40 && valueAF < 60) {
-         
+
         } else if (valueAF >= 60 && valueAF < 80) {
             return "Em Forma"
         } else if (valueAF >= 80) {
-            
+
         }
     }
 
